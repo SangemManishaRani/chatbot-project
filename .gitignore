@@ -1,15 +1,53 @@
-# Ignore sensitive files
-.env
-
-# Python cache
+# ======================
+# Python Bytecode & Cache
+# ======================
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
 
-# Virtual environments
+# ======================
+# Virtual Environments
+# ======================
 venv/
 env/
+.venv/
 
-# Editor & OS files
+# ======================
+# dotenv Secrets
+# ======================
+.env
+
+# ======================
+# VS Code / PyCharm / IDEs
+# ======================
 .vscode/
 .idea/
+
+# ======================
+# macOS & Windows OS Files
+# ======================
 .DS_Store
+Thumbs.db
+
+# ======================
+# Logs & Runtime Files
+# ======================
+*.log
+*.pid
+
+# ======================
+# Compiled C extensions
+# ======================
+*.so
+
+# ======================
+# Jupyter Notebook Checkpoints
+# ======================
+.ipynb_checkpoints/
+
+# ======================
+# Distribution / Packaging
+# ======================
+build/
+dist/
+*.egg-info/
